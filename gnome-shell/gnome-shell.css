@@ -3249,8 +3249,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #dash {
-  margin-top: 12px;
-  padding: 0 10px;
+  margin-top: 0px;
 }
 
 #dash .placeholder {
@@ -3266,9 +3265,13 @@ StScrollBar StButton#hhandle:active {
 .dash-background {
   background-color: rgba(29, 32, 33, 0.95);
   border: 0px solid #eee0b7;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   padding: 10px;
   border-radius: 40px;
+}
+
+.dash-item-container {
+  margin-bottom: 2px;
 }
 
 .dash-item-container .app-well-app,
@@ -3277,9 +3280,10 @@ StScrollBar StButton#hhandle:active {
 }
 
 .dash-separator {
-  width: 1px;
-  margin: 0 7px 16px;
-  background-color: #eee0b7;
+  width: 2px;
+  border-radius: 2px;
+  /* margin: 0 7px 16px; */
+  background-color: #c19614;
 }
 
 .workspace-animation {
@@ -3445,6 +3449,7 @@ StScrollBar StButton#hhandle:active {
 
 #dashtodockContainer {
   background-color: transparent;
+  margin-top: 0px;
 }
 
 #dashtodockContainer .number-overlay {
@@ -3483,7 +3488,7 @@ StScrollBar StButton#hhandle:active {
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0 0;
+  padding: 0;
 }
 
 #dashtodockContainer.extended.top #dash .dash-background,
@@ -3531,7 +3536,7 @@ StScrollBar StButton#hhandle:active {
   background-color: rgba(29, 32, 33, 0.95);
   border: 0px solid #eee0b7;
   margin-bottom: 4px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   border-radius: 40px;
 }
 
@@ -3605,7 +3610,7 @@ StScrollBar StButton#hhandle:active {
   background-color: rgba(29, 32, 33, 0.95);
   border: 0px solid #eee0b7;
   margin-bottom: 4px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   border-radius: 40px;
 }
 
