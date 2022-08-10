@@ -4566,14 +4566,14 @@ window.csd {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 12px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14),
-    0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 2px #eee0b7, 0 0 16px transparent;
+    0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 2px #eee0b700, 0 0 16px transparent;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14),
-    0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 2px #eee0b7, 0 0 16px transparent;
+    0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 2px #eee0b700, 0 0 16px transparent;
 }
 
 window.csd:backdrop {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24),
-    0 1px 2px -0.6px rgba(0, 0, 0, 0.17), 0 0 0 2px #504945, 0 0 16px transparent;
+    0 1px 2px -0.6px rgba(0, 0, 0, 0.17), 0 0 0 2px #50494500, 0 0 16px transparent;
 }
 
 window.csd.popup {

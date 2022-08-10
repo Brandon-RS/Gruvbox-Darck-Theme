@@ -15788,7 +15788,7 @@ decoration {
   border-radius: 14px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14),
     0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 16px transparent;
-  border: 0px solid #eee0b7;
+  border: 0px solid #eee0b700;
   background-clip: border-box;
   margin: 8px;
 }
@@ -15796,7 +15796,7 @@ decoration {
 decoration:backdrop {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.24),
     0 1px 2px -0.6px rgba(0, 0, 0, 0.17), 0 0 16px transparent;
-  border: 0px solid #504945;
+  border: 0px solid #50494500;
   background-clip: border-box;
 }
 

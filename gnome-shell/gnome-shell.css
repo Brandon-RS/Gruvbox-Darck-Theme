@@ -779,12 +779,12 @@ StWidget.focused .app-well-app-running-dot {
 
 .modal-dialog-linked-button:last-child {
   color: rgba(0, 0, 0, 0.87);
-  background-color: #eee0b7;
+  background-color: #ffbf00;
 }
 
 .modal-dialog-linked-button:hover:last-child {
   color: rgba(0, 0, 0, 0.87);
-  background-color: #dde5c2;
+  background-color: #d8a200;
 }
 
 .modal-dialog-linked-button:active:last-child {
@@ -811,7 +811,7 @@ StWidget.focused .app-well-app-running-dot {
   padding: 6px;
   margin: 3px !important;
   border: none !important;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .modal-dialog-linked-button:first-child {
@@ -2090,7 +2090,7 @@ StEntry StLabel.hint-text,
   width: 34em;
   min-height: 64px;
   margin: 2px 5px 8px;
-  border-radius: 6px;
+  border-radius: 12px;
   color: rgba(249, 245, 215, 0.7);
   background-color: #1d2021;
   border: none;
@@ -2592,15 +2592,15 @@ StEntry StLabel.hint-text,
   font-size: 10pt;
   border-radius: 12px;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
-  margin: 0 3px;
+  margin: 0 1px;
 }
 
 .popup-menu .popup-menu-content {
-  padding: 6px 0 !important;
+  padding: 6px 2px;
   background-color: #282828;
   border-radius: 12px;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
-  margin: 4px 10px 12px;
+  margin: 1px;
   font-weight: normal;
   border: 0px solid #eee0b7;
 }
@@ -2610,8 +2610,8 @@ StEntry StLabel.hint-text,
   padding: 6px;
   color: rgba(249, 245, 215, 0.7) !important;
   text-shadow: none;
-  border-radius: 6px;
-  margin: 0 6px;
+  border-radius: 12px;
+  margin: 1px 6px;
   font-weight: normal;
 }
 
@@ -2621,7 +2621,7 @@ StEntry StLabel.hint-text,
   box-shadow: none;
   color: rgba(0, 0, 0, 0.87) !important;
   background-color: #eee0b7 !important;
-  border-radius: 6px 6px 0 0;
+  border-radius: 12px 12px 0 0;
 }
 
 .popup-menu .popup-menu-item:checked:focus,
@@ -2662,7 +2662,7 @@ StEntry StLabel.hint-text,
   border: none;
   box-shadow: none;
   margin: 0 6px;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 12px 12px;
   background-color: #eee0b7 !important;
   color: rgba(0, 0, 0, 0.6) !important;
 }
@@ -2950,7 +2950,7 @@ StScrollBar StButton#hhandle:active {
 /* Search */
 .list-search-result,
 .search-provider-icon {
-  border-radius: 6px;
+  border-radius: 12px;
   padding: 6px;
   transition-duration: 100ms;
   text-align: center;
@@ -3307,11 +3307,11 @@ StScrollBar StButton#hhandle:active {
 .osd-window {
   spacing: 1em;
   min-width: 64px;
-  min-height: 64px;
+  min-height: 30px;
 }
 
 .osd-window StIcon {
-  icon-size: 96px;
+  icon-size: 30px;
 }
 
 #appMenu {
